@@ -1,7 +1,7 @@
 function division(number, dividedBy) {
     // Write you logic here.
    
-    if(number<dividedBy){
+    if(number==0||dividedBy==0||number<dividedBy){
        return 0;
     }else{
     let x=number-dividedBy;
