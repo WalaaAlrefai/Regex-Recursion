@@ -1,3 +1,4 @@
+
 function division(number, dividedBy) {
     // Write you logic here.
    
@@ -9,6 +10,9 @@ function division(number, dividedBy) {
     }
 
    
+
+
+/* Write a function to do the division operation without using the built-in division*/
 
 
 
@@ -25,6 +29,7 @@ function pow(x, n) {
         else{
             return (x*pow(x,n-1))
         }
+
 }
 
 /* The Fibonacci Series is a numeric series starting with the integers 0 and 1. In this series,
@@ -34,6 +39,7 @@ Write a function that take n as parameter and return the nth element in the Fibo
 Example: n = 4 ==> 3, n= 0 ==> 0, n = 3 ==> 2 */
 
 function fibonacci(n) {
+
     // Write you logic here.
     if(n==0 || n==1){
         return n;
@@ -42,6 +48,7 @@ function fibonacci(n) {
     }
     
 }
+
 
 /* Optional 
 The set [1, 2, 3, ..., n] contains a total of n! unique permutations.
@@ -60,6 +67,7 @@ Output: "213"  */
 function permutations(n, k) {
     let arr = [];
     // Write you logic here. 
+
     return arr
 };
 
@@ -92,6 +100,7 @@ describe("Test fibonacci", () => {
 });
 
 xdescribe("Test permutations", () => {
+
     test("It should return a list of possible combinations", () => {
         expect(permutations(3, 3)).toStrictEqual(["123", "132", "213", "231", "312", "321"]);
         expect(permutations(3, 0)).toStrictEqual([]);
